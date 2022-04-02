@@ -1,0 +1,162 @@
+body {
+    margin: auto 0;
+    font-family: verdana;
+    background: url("yy.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.zone {
+    color:#FFF;
+    font-size:2em;
+    transition: all 0.3s linear;
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+    .main-nav {
+        font-size: 0.4em;
+        padding: 0;
+    }
+    li {
+    padding: 20px;
+    }
+}
+
+li {
+    padding: 20px;
+    margin-left: 15px;
+    margin-right:  15 px;
+}
+
+.push {
+    margin-left: auto;
+}
+
+.nav-a {
+     color: #f5f5f6;
+     text-decoration: none;
+     padding: 3px;
+}
+
+.nav-a:hover{
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    transition: all 0.1s linear;
+
+}
+
+.slider-img{
+    background: url("bt.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 88%;
+    margin-left: 80px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+
+.slider-box {
+    width     : 50%;
+    max-height: 50vh;
+    position  : relative;
+    overflow  : hidden;
+    margin    : 30px auto;
+    margin-top: 35px;
+}
+
+#slider {
+    width     : 100%;
+    display   : inline-flex;
+    transition: 0.7s;
+}
+
+#slider img {
+    width: 100%;
+}
+
+.indicators {
+    position : absolute;
+    left     : 50%;
+    bottom   : 20px;
+    transform: translateX(-50%);
+}
+
+.indicators span {
+    display      : inline-block;
+    width        : 15px;
+    height       : 15px;
+    border-radius: 50%;
+    background   : rgba(255, 255, 255, 0.5);
+    cursor       : pointer;
+}
+
+.active {
+    background: #ffff !important;
+}
+
+
+.bucket{display: flex;
+    justify-content: center;
+    margin-top: 155px;
+}
+
+.card3 {
+    text-decoration: none;
+    list-style: none;
+}
+
+.card{
+    cursor: pointer;
+    margin: 10px auto;
+    display: flex;
+    width: 250px;
+    height:  450px;
+    background: #f6b143;
+    border-radius: 4px ;
+    border-bottom-left-radius: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.innerImg{
+    width: 190px;
+    height: 230px;
+    margin-top: 30px;
+    border-radius: 4px ;
+}
+
+
+.line {
+    width: 190px;
+    margin-left: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+.card:hover{
+    height: 460px;
+    transition: all 0.2s linear;
+}
+
+.classheight{
+    height:  40px;
+}
+
+footer{
+    height: 150px;
+}
+
